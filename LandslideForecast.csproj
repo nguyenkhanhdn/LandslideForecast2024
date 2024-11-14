@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\fonts\bootstrap-icons.woff2" />
+    <None Include="wwwroot\css\fonts\boxicons.svg" />
+    <None Include="wwwroot\css\fonts\boxicons.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="lobe" Version="1.0.35" />
+    <PackageReference Include="lobe.ImageSharp" Version="1.0.35" />
+    <PackageReference Include="lobe.Onnx" Version="1.0.35" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.8.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
+</Project>
