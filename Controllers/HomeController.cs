@@ -80,6 +80,7 @@ namespace LandslideForecast.Controllers
             return predictResult; //Hàm trả về là nhãn: sạt lở, không sạt lở
         }
         //Hàm chẩn đoán sạt lở đất
+
         private string Predict(string fileName)
         {
             try
